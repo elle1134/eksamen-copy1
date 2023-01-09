@@ -1,0 +1,61 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  margin: 0 3rem;
+  font-family: "Oswald", sans-serif;
+  border-bottom: 1px solid;
+}
+
+a {
+  color: rgb(101, 78, 78);
+  outline: none;
+  text-decoration: none;
+}
+
+main {
+  background-color: white;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+}
+
+.knap {
+  font-family: "Oswald", sans-serif;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+a {
+  font-family: "Oswald", sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+}

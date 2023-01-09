@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spil.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Spil</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="spil.html">Spil</a></li>
+                <li><a href="ide.html">Ide</a></li>
+                <li><a href="teknik.html">Teknik</a></li>
+                <li><a href="grafik.html">Grafik</a></li>
+                <li><a href="assets.html">Assetliste</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="screen">
+        <div id="game">
+            <div id="game_background"></div>
+            <div id="game_elements">
+                <div id="blue_container">
+                    <div id="blue_sprite"></div>
+                </div>
+                <div id="blue_container2">
+                    <div id="blue_sprite2"></div>
+                </div>
+                <div id="blue_container3">
+                    <div id="blue_sprite3"></div>
+                </div>
+                <div id="red_container">
+                    <div id="red_sprite"></div>
+                </div>
+                <div id="red_container2">
+                    <div id="red_sprite2"></div>
+                </div>
+                <div id="red_container3">
+                    <div id="red_sprite3"></div>
+                </div>
+            </div>
+            <div id="game_foreground"></div>
+            <div id="game_ui">
+                <div id="glad"></div>
+                <div id="sur"></div>
+                <div id="neutral"></div>
+                <div id="liv"> <span id="livtilbage"></span></div>
+                <div id="point"><span id="pointtavle"></span></div>
+                <div id="tid_container">
+                    <div id="tid_sprite" class="tid"></div>
+                </div>
+            </div>
+        </div>
+        <div id="startskærm">
+            <div id="startknap"></div>
+        </div>
+        <div id="gameover">
+            <div id="game_over_point"></div>
+            <div id="try_again"></div>
+        </div>
+        <div id="vinder">
+            <div id="try_again2"></div>
+        </div>
+    </div>
+
+    <div id="sounds">
+        <audio src="mp3/fuck.mp3" id="fuck" controls></audio>
+        <audio src="mp3/YES.mp3" id="yes" controls></audio>
+        <audio src="mp3/vandt.mp3" id="vandt" controls></audio>
+        <audio src="mp3/tabte.mp3" id="tabte" controls></audio>
+    </div>
+    <script src="spil.js"> </script>
+</body>
+
+</html>

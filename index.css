@@ -1,0 +1,30 @@
+body {
+  background-color: #f5f5dc;
+  background-image: url(oneliner.svg);
+}
+
+p {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+  color: #654e4e;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7rem;
+  color: rgb(101, 78, 78);
+}
+
+.knap {
+  color: rgb(101, 78, 78);
+  border: solid;
+  border-radius: 0.5rem;
+  background-color: #f5deb3;
+  font-size: 3rem;
+  width: 18%;
+}
+
+.knap:hover {
+  background-color: #cbb182;
+}

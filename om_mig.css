@@ -1,0 +1,12 @@
+body {
+  background-color: beige;
+}
+
+@media (min-width: 800px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: beige;
+}
+
+@media (min-width: 800px) {
+  .grid6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+img {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  text-align: center;
+}

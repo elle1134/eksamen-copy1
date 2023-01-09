@@ -1,0 +1,26 @@
+/*********** Side 2 *************/
+
+.spacing {
+  margin-left: auto;
+}
+
+@media (min-width: 800px) {
+  /*********** Forside *************/
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1;
+  }
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1;
+  }
+}

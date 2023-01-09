@@ -1,0 +1,341 @@
+.hide {
+  display: none;
+}
+
+body {
+  margin: 0%;
+}
+
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#startskærm {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(svg/startside.svg);
+  background-size: cover;
+}
+
+#gameover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(svg/gameover.svg);
+  background-size: cover;
+}
+
+#vinder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(svg/vinder.svg);
+  background-size: cover;
+}
+
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url("svg/baggrund.svg");
+  background-size: cover;
+}
+
+#game_foreground {
+  width: 100%;
+  position: absolute;
+  top: 71%;
+  left: -2%;
+  background-image: url(svg/forgrund.svg);
+  background-size: cover;
+  scale: 93%;
+  aspect-ratio: 1764/334;
+  pointer-events: none;
+}
+
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  pointer-events: none;
+}
+
+#blue_container,
+#blue_container2,
+#blue_container3 {
+  position: absolute;
+  width: 6%;
+  aspect-ratio: 161/221;
+  top: -15%;
+}
+
+#blue_sprite,
+#blue_sprite2,
+#blue_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("svg/blue.svg");
+  background-size: cover;
+}
+
+#red_container,
+#red_container2,
+#red_container3 {
+  position: absolute;
+  width: 6%;
+  aspect-ratio: 161/221;
+  top: -15%;
+}
+
+#red_sprite,
+#red_sprite2,
+#red_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("svg/red.svg");
+  background-size: cover;
+}
+
+#liv {
+  position: absolute;
+  width: 11%;
+  aspect-ratio: 547/486;
+  top: 3%;
+  left: 1%;
+  background-image: url("svg/liv.svg");
+  background-size: cover;
+}
+
+#point {
+  position: absolute;
+  width: 6%;
+  aspect-ratio: 153/163;
+  top: 13%;
+  left: 93%;
+  background-image: url("svg/point.svg");
+  background-size: cover;
+}
+
+#neutral {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 472/810;
+  top: 44%;
+  left: 81%;
+  background-image: url(svg/neutral_inger.svg);
+  background-size: cover;
+}
+
+.fald {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes fald_kf {
+  from {
+    translate: 0 -250%;
+  }
+  to {
+    translate: 0 630%;
+  }
+}
+
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_kf {
+  0% {
+  }
+  25% {
+    scale: 0.5;
+  }
+  50% {
+    scale: 1;
+  }
+  75% {
+    scale: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+    scale: 0;
+  }
+}
+
+#pointtavle {
+  color: black;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#livtilbage {
+  color: black;
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  font-size: 5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/***positioner****/
+
+.pos1 {
+  left: 35%;
+}
+
+.pos2 {
+  left: 40%;
+}
+
+.pos3 {
+  left: 45%;
+}
+
+.pos4 {
+  left: 50%;
+}
+
+.pos5 {
+  left: 55%;
+}
+
+.pos6 {
+  left: 60%;
+}
+
+.pos7 {
+  left: 80%;
+}
+
+/***delay***/
+
+.del1 {
+  animation-delay: 0.5s;
+}
+
+.del2 {
+  animation-delay: 1s;
+}
+
+.del3 {
+  animation-delay: 1.5s;
+}
+
+.del4 {
+  animation-delay: 2s;
+}
+
+/*****Timer****/
+
+#tid_container {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 10/1;
+  border: solid;
+  top: 4%;
+  left: 77%;
+  background-color: lightblue;
+}
+
+#tid_sprite {
+  width: 100%;
+  height: 100%;
+  transform-origin: right;
+}
+
+.tid {
+  animation-name: tid_kf;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tid_kf {
+  from {
+    background-color: green;
+    scale: 1 1;
+  }
+  50% {
+    background-color: yellow;
+  }
+  to {
+    background-color: red;
+    scale: 0 1;
+  }
+}
+
+#startknap {
+  width: 30%;
+  position: absolute;
+  top: 46%;
+  left: 35%;
+  background-image: url(svg/startknap.svg);
+  aspect-ratio: 389/110;
+  cursor: pointer;
+  background-size: cover;
+  height: 16%;
+}
+
+#try_again {
+  width: 30%;
+  position: absolute;
+  top: 63%;
+  left: 27%;
+  background-image: url(svg/try_again.svg);
+  aspect-ratio: 389/110;
+  cursor: pointer;
+  background-size: cover;
+  height: 16%;
+}
+
+#try_again2 {
+  width: 30%;
+  position: absolute;
+  top: 60%;
+  left: 27%;
+  background-image: url(svg/try_again.svg);
+  aspect-ratio: 389/110;
+  cursor: pointer;
+  background-size: cover;
+  height: 16%;
+}

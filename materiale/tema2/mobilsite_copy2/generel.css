@@ -1,0 +1,122 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "pt_serifregular", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/************ Web fonts ************/
+
+@font-face {
+  font-family: "antic_didoneregular";
+  src: url("anticdidone-regular-webfont.woff2") format("woff2"), url("anticdidone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arima_madurairegular";
+  src: url("arimamadurai-regular-webfont.woff2") format("woff2"), url("arimamadurai-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/************ Colors ************/
+
+.color1 {
+  color: #edf4ed;
+}
+.color2 {
+  color: #abd1b5;
+}
+.color3 {
+  color: #79b791;
+}
+
+.color4 {
+  color: #51291e;
+}
+
+.color5 {
+  color: #301014;
+}
+
+.bg_color1 {
+  background-color: #abd1b5;
+}
+.bg_color2 {
+  background-color: #abd1b5;
+}
+.bg_color3 {
+  background-color: #79b791;
+}
+
+.bg_color4 {
+  background-color: #51291e;
+}
+
+.bg_color5 {
+  background-color: #301014;
+}
+
+/************ Tekst format ************/
+
+h1 {
+  color: #51291e;
+  font-size: 30px;
+  font-family: "font-family: 'Bebas Neue', cursive;";
+}
+
+h2 {
+  color: #51291e;
+  font-family: "font-family: 'Bebas Neue', cursive;";
+}
+
+h3 {
+  color: #51291e;
+  font-family: "font-family: 'Bebas Neue', cursive;";
+}
+
+p {
+  font-family: "antic_didoneregular";
+  color: #51291e;
+}
+
+body {
+  background-color: #79b791;
+  margin: 40px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+main {
+  background-color: #abd1b5;
+  padding: 30px;
+}
+p {
+  margin-bottom: 3rem;
+}
+
+header li {
+  margin: 10px;
+}
+
+dl {
+  color: #51291e;
+  font-family: "antic_didoneregular";
+}
+
+/********* images **********/
+
+img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
