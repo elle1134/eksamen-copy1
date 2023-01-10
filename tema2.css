@@ -18,19 +18,7 @@ img {
   margin-bottom: 2rem;
 }
 
-.knap_m {
-  color: rgb(101, 78, 78);
-  border: solid;
-  border-radius: 0.9rem;
-  background-color: wheat;
-  font-size: 1rem;
-  text-align: center;
-  display: inline-block;
-  padding: 4px;
-  margin-left: 325px;
-}
-
-.knap_e {
+.knap {
   color: rgb(101, 78, 78);
   border: solid;
   border-radius: 0.9rem;
@@ -42,14 +30,10 @@ img {
   margin-left: 320px;
 }
 
-.knap_e:hover {
-  background-color: #cbb182;
-}
-
-.knap_m:hover {
+.knap:hover {
   background-color: #cbb182;
 }
 
 .tekst {
-  margin-bottom: 25rem;
+  margin-bottom: 45em;
 }

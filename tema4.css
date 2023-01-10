@@ -10,9 +10,6 @@ body {
   }
 }
 
-img {
-  margin-bottom: 2rem;
-}
 .knap {
   color: rgb(101, 78, 78);
   border: solid;
@@ -27,4 +24,9 @@ img {
 
 .knap:hover {
   background-color: #cbb182;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
 }

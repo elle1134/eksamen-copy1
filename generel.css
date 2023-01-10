@@ -8,6 +8,11 @@ nav ul {
   border-bottom: 1px solid;
 }
 
+#navbar {
+  position: sticky;
+  overflow: hidden;
+}
+
 a {
   color: rgb(101, 78, 78);
   outline: none;
@@ -35,6 +40,11 @@ h3 {
 
 p {
   font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  word-spacing: 0.1rem;
+  margin: 6rem;
+  margin-top: 2.5rem;
+  line-height: 2rem;
 }
 
 .knap {
@@ -58,4 +68,19 @@ img {
   display: flex;
   justify-content: center;
   max-width: 700px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #f5f5dc;
+}
+
+ul {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  word-spacing: 0.1rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  line-height: 2.5rem;
 }
